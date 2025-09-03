@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ES2020",
+    "moduleResolution": "node",
+    "outDir": "./dist",
+    "rootDir": "./",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true
+  },
+  "include": [
+    "src/**/*",
+    "test-completion.ts",
+    "real-world-example.ts",
+    "contextual-example.ts",
+    "api-example.ts",
+    "react-example.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
