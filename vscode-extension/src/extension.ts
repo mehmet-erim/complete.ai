@@ -17,13 +17,22 @@ export function activate(context: vscode.ExtensionContext) {
       { scheme: 'file', language: 'csharp' },
       { scheme: 'file', language: 'go' },
       { scheme: 'file', language: 'rust' },
-      { scheme: 'file', language: 'php' }
+      { scheme: 'file', language: 'php' },
+      { scheme: 'file', language: 'html' },
+      { scheme: 'file', language: 'css' },
+      { scheme: 'file', language: 'scss' },
+      { scheme: 'file', language: 'sass' },
+      { scheme: 'file', language: 'less' },
+      { scheme: 'file', language: 'markdown' },
+      { scheme: 'file', language: 'json' }
     ],
     provider,
     ' ', // Trigger on space
     '.', // Trigger on dot
     '(', // Trigger on opening parenthesis
     '{', // Trigger on opening brace
+    '[', // Trigger on opening bracket
+    '<', // Trigger on opening angle bracket
     '\n'  // Trigger on new line
   );
 

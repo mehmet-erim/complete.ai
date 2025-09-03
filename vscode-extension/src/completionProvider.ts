@@ -102,7 +102,14 @@ Completion:`;
       'csharp': 'C#',
       'go': 'Go',
       'rust': 'Rust',
-      'php': 'PHP'
+      'php': 'PHP',
+      'html': 'HTML',
+      'css': 'CSS',
+      'scss': 'SCSS',
+      'sass': 'Sass',
+      'less': 'Less',
+      'markdown': 'Markdown',
+      'json': 'JSON'
     };
     
     return languageMap[languageId] || 'code';

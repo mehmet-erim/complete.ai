@@ -3,6 +3,26 @@
   "displayName": "complete.ai",
   "description": "AI-powered code completion using OpenRouter API",
   "version": "0.0.1",
+  "keywords": [
+    "ai",
+    "code completion",
+    "javascript",
+    "typescript",
+    "python",
+    "java",
+    "c++",
+    "c#",
+    "go",
+    "rust",
+    "php",
+    "html",
+    "css",
+    "sass",
+    "scss",
+    "less",
+    "markdown",
+    "json"
+  ],
   "engines": {
     "vscode": "^1.74.0"
   },

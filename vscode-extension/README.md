@@ -5,7 +5,7 @@ An AI-powered code completion extension for Visual Studio Code using the OpenRou
 ## Features
 
 - 🤖 AI-powered code completion for multiple programming languages
-- 🔧 Supports JavaScript, TypeScript, Python, Java, C++, C#, Go, Rust, and PHP
+- 🔧 Supports JavaScript, TypeScript, Python, Java, C++, C#, Go, Rust, PHP, HTML, CSS/Sass/SCSS/Less, Markdown, and JSON
 - ⚡ Real-time suggestions as you type
 - ⚙️ Configurable settings for model, tokens, and temperature
 - 🌐 Powered by OpenRouter API with access to multiple AI models
@@ -63,6 +63,12 @@ An AI-powered code completion extension for Visual Studio Code using the OpenRou
 - Go (.go)
 - Rust (.rs)
 - PHP (.php)
+- HTML (.html)
+- CSS (.css)
+- Sass (.scss, .sass)
+- Less (.less)
+- Markdown (.md)
+- JSON (.json)
 
 ## Extension Settings
 
