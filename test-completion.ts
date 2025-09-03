@@ -22,7 +22,7 @@ function main() {
   // Simulate cursor position (line 7, column 0)
   const cursorPosition: CursorPosition = { line: 7, column: 0 };
 
-  console.log('Testing AI completion...');
+  console.log('Testing complete.ai completion...');
   console.log('Code context:');
   console.log(code);
   console.log('\nGenerating completion...');
@@ -68,7 +68,7 @@ async function testModels(): Promise<void> {
 
 // Run tests
 async function runTests(): Promise<void> {
-  console.log('🚀 Starting AI Auto-Complete Tests\n');
+  console.log('🚀 Starting complete.ai Tests\n');
 
   await testModels();
   await testCompletion();

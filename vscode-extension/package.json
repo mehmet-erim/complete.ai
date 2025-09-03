@@ -1,0 +1,60 @@
+{
+  "name": "complete-ai-vscode",
+  "displayName": "complete.ai",
+  "description": "AI-powered code completion using OpenRouter API",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./dist/extension.js",
+  "contributes": {
+    "configuration": {
+      "title": "complete.ai",
+      "properties": {
+        "complete-ai.apiKey": {
+          "type": "string",
+          "default": "",
+          "description": "OpenRouter API Key"
+        },
+        "complete-ai.defaultModel": {
+          "type": "string",
+          "default": "meta-llama/llama-3.3-8b-instruct:free",
+          "description": "Default AI model for completions"
+        },
+        "complete-ai.maxTokens": {
+          "type": "number",
+          "default": 50,
+          "description": "Maximum number of tokens for completions"
+        },
+        "complete-ai.temperature": {
+          "type": "number",
+          "default": 0.1,
+          "description": "Temperature for completions (0.0 to 1.0)"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.74.0",
+    "@types/node": "^16.11.7",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "axios": "^1.11.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/complete-ai.git"
+  }
+}

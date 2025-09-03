@@ -1,4 +1,4 @@
-# AI Auto-Complete
+# complete.ai
 
 A Node.js project for AI-powered code completion using OpenRouter API. This serves as the foundation for a VSCode extension that provides intelligent code suggestions.
 
@@ -58,7 +58,7 @@ This will:
 ## Project Structure
 
 ```
-ai-auto-complete/
+complete.ai/
 ├── src/
 │   ├── api/
 │   │   └── openrouter-client.js    # OpenRouter API client
